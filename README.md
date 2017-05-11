@@ -1,15 +1,17 @@
-# Json.NetMF
+# SimpleJson 
 
-JSON Serializer and Deserializer library for the .NET Micro Framework
+SimpleJson intends to be a super-simple Json parser/composer that doesn't require to be mapped to an object.
 
-This library is a forked and modified version of Mike Jones's JSON Serialization and Deserialization library (https://www.ghielectronics.com/community/codeshare/entry/357).
+It is a fork of Json.NetMF (JSON Serializer and Deserializer library for the .NET Micro Framework)
 
-Its hopefuly faster, more lightweight, and more robust.
+Json.NetMF was in turn a forked and modified version of Mike Jones's JSON Serialization and Deserialization library (https://www.ghielectronics.com/community/codeshare/entry/357).
 
-Here's a short blog post about how this library came to be: http://mattweimer.net/Posts/Details/1
+The author of Json.NetMF hopes it's hopefuly faster, more lightweight, and more robust (in comparison to?) - I hope it too nonetheless.
+
+The author of Json.NetMF wrote a short blog post about how Json.NetMF came to be: http://mattweimer.net/Posts/Details/1
 
 ## Requirements
-Microsoft .NET Micro Framework 4.2 or higher
+Mono 4.6
 
 ## Example Usage
 
@@ -135,9 +137,3 @@ Debug.Print(birthday.ToString());
 // Output: "04/27/1985 00:00:00"
 ```
 
-## Nuget
-Available through Nuget (http://www.nuget.org/packages/Json.NetMF/)
-
-```
-PM> Install-Package Json.NetMF
-```

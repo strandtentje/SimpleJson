@@ -2,13 +2,16 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="UnitTests/HelperClasses.cs">
     <Files>
-      <File FileName="UnitTests/HelperClasses.cs" Line="20" Column="3" />
+      <File FileName="UnitTests/HelperClasses.cs" Line="3" Column="1" />
+      <File FileName="UnitTests/DateTests.cs" Line="6" Column="1" />
+      <File FileName="UnitTests/DeserializationTests.cs" Line="7" Column="1" />
+      <File FileName="UnitTests/SerializationTests.cs" Line="58" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SimpleJson" expanded="True" selected="True">
-            <Node name="Json" expanded="True" />
+          <Node name="SimpleJson" expanded="True">
+            <Node name="Transcoder" expanded="True" selected="True" />
             <Node name="UnitTests" expanded="True">
               <Node name="References" expanded="True" />
             </Node>
